@@ -5,5 +5,5 @@
   <br>
   -CSS
   <br>
-  javascript
+  -Javascript
   <br>
