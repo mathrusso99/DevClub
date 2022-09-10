@@ -21,6 +21,11 @@
     margin-right: 32px;
 }
 
+.div-section {
+    display: inline-block;
+    margin-left: 82.82px;
+}
+
 img {
     width: 595.18px;
     height: 500px;
@@ -45,17 +50,10 @@ button {
     margin-top: 32px;
 }
 
-section {
-    display: inline-block;
-    margin-left: 82.82px;
-}
-
-
 h1 {
     font-weight: 700;
     font-size: 62px;
     line-height: 82px;
-    letter-spacing: 0.596154px;
     color: #161A49;
     width: 582px;
     height: 164px;
@@ -91,65 +89,72 @@ a {
         height: 50%;
         padding: 0;
         margin: 0;
-        
     }
 
     .link-header {
         display: none;
     }
 
-    section {
-        margin-top: 76px;
-        margin-bottom: 59px;
-        margin-left: 43px;
-        margin-right: 43px;
-    }
-
-    img {
-
-        position: absolute;
-        width: 90%;
-        height: 45%;
-        margin-top: 400px;
-        margin-left: 12px;
-        margin-right: 29px;
-        margin-bottom: 22px;
-    }
-
-
-    h1 {
-        width: 278px;
-        height: 60px;
-        font-size: 30px;
-        line-height: 30px;
-        text-align: center;
-    }
-
-    p {
-        font-size: 18px;
-        line-height: 33px;
-        text-align: center;
-        width: 304px;
-        height: 165px;
-        margin-top: 29px;
-        margin-bottom: 26px;
-    }
-
-    a {
-        font-size: 18px;
-        line-height: 27px;
-        width: 112px;
-        height: 27px;
-        margin-left: 90px;
-    }
-
     button {
         width: 91px;
         height: 31px;
+        font-style: normal;
+        font-weight: 500;
         font-size: 12px;
         line-height: 18px;
         letter-spacing: 1px;
         color: #FFFFFF;
-        margin: 17px 15px 0 284px;
+        margin-top: 17px;
+        margin-left: 340px;
+    }
+
+    img {
+        width: 90%;
+        height: 50%;
+        margin: 490px 39px 22px 39px;
+        position: relative;
+        top: 65px;
+    }
+
+    h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        color: #161A49;
+        width: 278px;
+        height: 60px;
+        text-align: center;
+    }
+
+    p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        color: #4B505A;
+        width: 304px;
+        height: 165px;
+        text-align: center;
+    }
+
+    a {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #6FBF44;
+        width: 112px;
+        height: 27px;
+        position: relative;
+        left: 90px;
+        bottom: 26px;
+
+    }
+
+    .div-section {
+        position: relative;
+        bottom: 700px;
+        right: 10px;
     }
 }
